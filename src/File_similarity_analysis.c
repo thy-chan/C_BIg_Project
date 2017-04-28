@@ -177,7 +177,7 @@ void Analyze()
     }
     Numbers();
     printf("其中两文件相同的单词数:%d\n",t);
-    double N=(1.0*t/num)*100.0;
+    double N=(2.0*t/num)*100.0;
     printf("相似度为:%5.2lf%%\n",N);
     if(N>=80)
         printf("两文件相似度大于80%%，理论上两文件:   相同!!\n");
